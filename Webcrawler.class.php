@@ -13,6 +13,7 @@ class Webcrawler
 		$this->ch=curl_init();
 		$this->timeout = 10;
 		$this->userAgent = 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) chrome/34.0.1847.131 Safari/537.36';
+		$this->url="";
 	}
 
 	protected function Search($search_str)
